@@ -1,0 +1,14 @@
+C:\Users\kohct\source\repos\SWAD_Assignment_Classes\SWAD_Assignment_Classes\bin\Debug\net6.0\SWAD_Assignment_Classes.exe
+C:\Users\kohct\source\repos\SWAD_Assignment_Classes\SWAD_Assignment_Classes\bin\Debug\net6.0\SWAD_Assignment_Classes.deps.json
+C:\Users\kohct\source\repos\SWAD_Assignment_Classes\SWAD_Assignment_Classes\bin\Debug\net6.0\SWAD_Assignment_Classes.runtimeconfig.json
+C:\Users\kohct\source\repos\SWAD_Assignment_Classes\SWAD_Assignment_Classes\bin\Debug\net6.0\SWAD_Assignment_Classes.dll
+C:\Users\kohct\source\repos\SWAD_Assignment_Classes\SWAD_Assignment_Classes\bin\Debug\net6.0\SWAD_Assignment_Classes.pdb
+C:\Users\kohct\source\repos\SWAD_Assignment_Classes\SWAD_Assignment_Classes\obj\Debug\net6.0\SWAD_Assignment_Classes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kohct\source\repos\SWAD_Assignment_Classes\SWAD_Assignment_Classes\obj\Debug\net6.0\SWAD_Assignment_Classes.AssemblyInfoInputs.cache
+C:\Users\kohct\source\repos\SWAD_Assignment_Classes\SWAD_Assignment_Classes\obj\Debug\net6.0\SWAD_Assignment_Classes.AssemblyInfo.cs
+C:\Users\kohct\source\repos\SWAD_Assignment_Classes\SWAD_Assignment_Classes\obj\Debug\net6.0\SWAD_Assignment_Classes.csproj.CoreCompileInputs.cache
+C:\Users\kohct\source\repos\SWAD_Assignment_Classes\SWAD_Assignment_Classes\obj\Debug\net6.0\SWAD_Assignment_Classes.dll
+C:\Users\kohct\source\repos\SWAD_Assignment_Classes\SWAD_Assignment_Classes\obj\Debug\net6.0\refint\SWAD_Assignment_Classes.dll
+C:\Users\kohct\source\repos\SWAD_Assignment_Classes\SWAD_Assignment_Classes\obj\Debug\net6.0\SWAD_Assignment_Classes.pdb
+C:\Users\kohct\source\repos\SWAD_Assignment_Classes\SWAD_Assignment_Classes\obj\Debug\net6.0\SWAD_Assignment_Classes.genruntimeconfig.cache
+C:\Users\kohct\source\repos\SWAD_Assignment_Classes\SWAD_Assignment_Classes\obj\Debug\net6.0\ref\SWAD_Assignment_Classes.dll
