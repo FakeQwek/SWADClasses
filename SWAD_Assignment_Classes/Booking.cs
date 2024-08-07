@@ -38,6 +38,16 @@ namespace SWAD_Assignment_Classes
             Renter = renter;
 
             Cost = ((endDateTime - startDateTime).TotalDays + 1) * vehicle.RentalRate;
+
+            if (pickup.PickupOption == "delivery")
+            {
+                Cost += 10;
+            }
+
+            if (dropOff.DropOffOption == "delivery")
+            {
+                Cost += 10;
+            }
         }
 
         public void updateBookingPaidStatus()
