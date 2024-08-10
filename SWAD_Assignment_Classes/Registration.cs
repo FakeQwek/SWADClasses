@@ -1,18 +1,18 @@
-﻿using System;
+using SWAD_Assignment_Classes;
+using System;
+using System.Collections.Generic;
 
 public class Registration
 {
-	private int registrationId;
+    private int registrationId;
+    private bool isChecked = false;
+    private Renter renter;
 
-	private bool isChecked = false;
-
-	private Renter renter;
-
-	public bool IsChecked
-	{
-		get { return isChecked; }
-		set { isChecked = value; }
-	}
+    public bool IsChecked
+    {
+        get { return isChecked; }
+        set { isChecked = value; }
+    }
 
     public int RegistrationId
     {
@@ -20,62 +20,52 @@ public class Registration
         set { registrationId = value; }
     }
 
-	public Renter Renter
-	{
-		get
-		{
-			return renter;
-		}
-		set
-		{
-			if(renter != value)
-			{
-				renter = value;
-				value.Registration = this;
-			}
+    public Renter Renter
+    {
+        get { return renter; }
+        set
+        {
+            if (renter != value)
+            {
+                renter = value;
+                value.Registration = this;
+            }
+        }
+    }
 
-		}
-	}
+    public List<string> GetBackgroundInfo()
+    {
+        return Renter.GetBackgroundInfo();
+    }
 
+    public bool GetValidityOfDriversLicense()
+    {
+        return Renter.GetValidityOfDriversLicense();
+    }
 
-    public List<string> getBackgroundInfo()
-	{
-	
-		return Renter.getBackgroundInfo();
-    } 
-
-	public bool getValidityOfDriversLicense()
-	{
-		return Renter.getValidityOfDriversLicense();
-	}
-
-	
-
-    public int getRegistrationId()
-	{
-		if (isChecked == false)
-		{
+    public int GetRegistrationId()
+    {
+        if (!isChecked)
+        {
             return registrationId;
         }
-		return -1;
-	
-	}
+        return -1;
+    }
 
-	public void deleteRegistration()
-	{
-		
-		Renter.Registration = null;
-	}
+    public void DeleteRegistration()
+    {
+        Renter.Registration = null;
+    }
 
-	public void updateRegistration()
-	{
-		IsChecked = true;
-		Renter.approveRenter();
-	}
+    public void UpdateRegistration()
+    {
+        IsChecked = true;
+        Renter.ApproveRenter();
+    }
 
-	public Registration(int registrationId, Renter renter)
-	{
-		RegistrationId = registrationId;
-		Renter = renter;
-	}
+    public Registration(int registrationId, Renter renter)
+    {
+        RegistrationId = registrationId;
+        Renter = renter;
+    }
 }
