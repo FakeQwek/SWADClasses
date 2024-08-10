@@ -17,7 +17,6 @@ namespace SWAD_Assignment_Classes
 
         public virtual void Process(Payment payment)
         {
-            // Processing logic will be overridden in subclasses
             payment.IsSuccessful = true;
         }
     }
@@ -28,9 +27,8 @@ namespace SWAD_Assignment_Classes
 
         public override void Process(Payment payment)
         {
-            // Specific processing logic for credit cards
             Console.WriteLine("Processing payment through credit card...");
-            payment.IsSuccessful = true; // Simulate a successful payment
+            payment.IsSuccessful = true;
         }
     }
 
@@ -40,9 +38,8 @@ namespace SWAD_Assignment_Classes
 
         public override void Process(Payment payment)
         {
-            // Specific processing logic for debit cards
             Console.WriteLine("Processing payment through debit card...");
-            payment.IsSuccessful = true; // Simulate a successful payment
+            payment.IsSuccessful = true;
         }
     }
 
@@ -52,9 +49,8 @@ namespace SWAD_Assignment_Classes
 
         public override void Process(Payment payment)
         {
-            // Specific processing logic for digital wallets
-            Console.WriteLine("Processing payment through  digital wallet...");
-            payment.IsSuccessful = true; // Simulate a successful payment
+            Console.WriteLine("Processing payment through digital wallet...");
+            payment.IsSuccessful = true;
         }
     }
 }
