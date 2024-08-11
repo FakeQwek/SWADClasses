@@ -28,16 +28,6 @@ namespace SWAD_Assignment_Classes
             Payment payment = new Payment(id, amount);
             PaymentCompany paymentCompany = new PaymentCompany("DefaultCompany");
             payment.ProcessPayment(paymentCompany);
-
-            if (payment.IsSuccessful)
-            {
-                Console.WriteLine("Payment was successful.");
-            }
-            else
-            {
-                Console.WriteLine("Payment failed.");
-            }
-
             return payment;
         }
     }
